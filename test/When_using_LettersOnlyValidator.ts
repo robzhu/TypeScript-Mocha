@@ -2,7 +2,7 @@
 /// Mreference path="../typings/mocha/mocha.d.ts"/>
 
 import chai 		= require('chai');
-import nums			= require('../LettersOnlyValidator');
+import nums			= require('../src/LettersOnlyValidator');
 
 var assert = chai.assert;
 var expect = chai.expect;
@@ -12,4 +12,4 @@ describe('LettersOnlyValidator#isAcceptable', function(){
 		var v = new nums.LettersOnlyValidator();
 		expect( v.isAcceptable( "123" ) ).to.be.equals(false);
 	});
-})
+}) 
