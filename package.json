@@ -1,0 +1,8 @@
+{
+  "name": "ts-tut01",
+  "main": "app.js",
+  "dependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
+}
