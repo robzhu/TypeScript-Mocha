@@ -1,5 +1,9 @@
 node_modules/
 built/*
+src/*.js
+src/*.map
+test/*.js
+test/*.map
 tests/cases/*.js
 tests/cases/*/*.js
 tests/cases/*/*/*.js
